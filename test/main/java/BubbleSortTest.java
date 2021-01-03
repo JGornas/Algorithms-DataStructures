@@ -1,13 +1,11 @@
 package test.main.java;
 
+import static org.junit.Assert.assertArrayEquals;
+import org.junit.Test;
+
 import src.main.java.BubbleSort;
 
-import org.junit.Test;
-import static org.junit.Assert.assertArrayEquals;
-
-
 public class BubbleSortTest {
-
     @Test
     public void sortAscendingTest() {
         int[] array = { 2, 1, 3, 5, 4, 9, 7, 8, 6 };
