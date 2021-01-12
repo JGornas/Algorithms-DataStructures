@@ -1,6 +1,10 @@
 package src.main.java;
 
 public class Quicksort {
+    public static void sort(int[] array) {
+        sort(array, 0, array.length - 1);
+    }
+
     public static void sort(int[] array, int left, int right) {
         if (left < right) {
             int pivotIndex = partition(array, left, right);
